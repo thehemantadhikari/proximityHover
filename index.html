@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="app.js"></script>
+
+    <style>
+      body {
+        background-color: #f6f9e8;
+        color: #222222;
+        padding: 0%;
+        margin: 0%;
+      }
+
+      main {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      .eye {
+        width: 28px;
+      }
+
+      #eyes,
+      #eyes img {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="hemant.jpg" id="anchor" />
+      <div id="eyes">
+        <img src="eye.png" class="eye" style="top: -81px; right: 19px" />
+        <img src="eye.png" class="eye" style="top: -87px" />
+      </div>
+    </main>
+  </body>
+</html>
